@@ -199,3 +199,10 @@
     language: python
     types: [text]
     stages: [commit, push, manual]
+-   id: max-lines
+    name: max lines
+    description: checks that files don't exceed a maximum number of lines.
+    entry: max-lines
+    language: python
+    types: [text]
+    stages: [commit, push, manual]
